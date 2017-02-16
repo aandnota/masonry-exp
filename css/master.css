@@ -1,0 +1,43 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.content{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+
+#grid-size{
+  background-color: transparent;
+}
+
+.grid-size, .grid-item{
+  width: 156px;
+  height: 9.9vw;
+
+  background-color: #ddb151;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: .66vw .66vw 0 0;
+
+}
+
+/*.gutter-size{
+  width:
+}*/
+
+.grid-height2{
+  height: 32vw;
+}
+
+.grid-height3{
+  height: 48vw;
+}
+
+.grid-width2{
+  width: 37vw;
+}
